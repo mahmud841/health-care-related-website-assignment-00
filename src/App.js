@@ -8,10 +8,12 @@ import NotFound from './components/NotFound/NotFound';
 import Services from './components/Services/Services';
 import Footer from './components/Shared/Footer/Footer';
 import Header from './components/Shared/Header/Header';
+import AuthProvider from './contexts/AuthProvider';
 
 function App() {
   return (
     <div className="App">
+      <AuthProvider>
       <Router>
         <Header></Header>
         <Switch>
@@ -39,6 +41,7 @@ function App() {
         </Switch>
         <Footer></Footer>
       </Router>
+      </AuthProvider>
 
 
 

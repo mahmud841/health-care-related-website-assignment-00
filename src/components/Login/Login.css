@@ -1,0 +1,17 @@
+.google-button {
+  margin-top: 20px;
+  width: 320px;
+  height: 38px;
+  /* background-color: rgb(0, 0, 0); */
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  transition: 0.7s;
+}
+.google-button:hover {
+  background-color: black;
+  color: white;
+}
+.login-icon img {
+  width: 100%;
+}
