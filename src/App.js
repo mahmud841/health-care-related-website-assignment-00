@@ -9,6 +9,7 @@ import Footer from './components/Shared/Footer/Footer';
 import Header from './components/Shared/Header/Header';
 import AuthProvider from './contexts/AuthProvider';
 import Doctors from './components/Home/Home/Doctors/Doctors';
+import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -29,12 +30,12 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
-          <Route path="/services">
+          <PrivateRoute path="/services/:serviceId">
             <Services></Services>
-          </Route>
-          <Route path="/doctors">
+          </PrivateRoute>
+          <PrivateRoute path="/doctors">
             <Doctors></Doctors>
-          </Route>
+          </PrivateRoute>
           <Route path="*">
             <NotFound></NotFound>
           </Route>

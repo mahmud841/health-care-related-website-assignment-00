@@ -8,9 +8,9 @@ import Service from '../Home/Home/Service/Service';
 const services = [
   {
     img: "https://study.com/cimages/course-image/health-course_123943_small.jpg",
-    name: 'Dr Mahmud Hassan Khan',
+    name: 'Principle of Health',
     title: 'MBBS,FCPS. Orthopedic Surgery Department',
-    decsription:'My fields, Mental health care'
+    description:'Health 101: Principles of Health has been evaluated and recommended for 3 semester hours and may be transferred to over 2,000 colleges and universities. Youll learn from expert instructors, and the course is available to study at any time. Finishing this course allows you to apply for transfer credit, which can save you money on your degree.'
   },
   {
     img: "https://study.com/cimages/course-image/basic-nursing-training_413221_small.jpeg",
