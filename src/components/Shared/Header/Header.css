@@ -1,6 +1,6 @@
 
-.nav-bar{
-  color: #d4e8ee;
+.nav-bar .navLink{
+  color: #03171d;
   background-color: thistle;
   font-style: italic;
   font-weight: 700;
@@ -10,7 +10,18 @@
 
  
 }
-.header-icon{
+.nav-bar{
+  color: #03171d;
+  background-color: thistle;
+  font-style: italic;
+  font-weight: 700;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+ 
+}
+.header-icon .navLink{
   display: flex;
    flex-direction: column;
   justify-content: space-around; 

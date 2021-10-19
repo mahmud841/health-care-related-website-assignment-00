@@ -13,7 +13,7 @@ const Doctor = ({doctor}) => {
         <h5>Specialist:{specialist} </h5>
         <p>Practising In:{practice} </p>
         <p><small>Description:{description} </small></p>
-        <address>Address:{address}</address>
+        <h5><address>Address:{address}</address></h5>
       </div>
       
     </div>

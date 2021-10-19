@@ -2,15 +2,16 @@ import {getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChange
 import { useEffect, useState } from 'react';
 import initializeAuthentication from '../components/Login/Firebase/firebase.init';
 
-
+//******************* Function is called 
 initializeAuthentication();
 
 const useFirebase = () => {
     const [user, setUser] = useState({});
   const [isLoading, setIsLoading] = useState(true);
-
+// Always use this, don't forget 
   const auth = getAuth();
 
+//***************************Google Sign In Coding****************
   const signInUsingGoogle = () => {
     setIsLoading(true)
     const googleProvider = new GoogleAuthProvider();
@@ -20,7 +21,7 @@ const useFirebase = () => {
       })
       .finally(() => setIsLoading(false));
   }
-// Observeing user State Changing kahini 
+// Observeing user State Changing Showing  
   useEffect(() => {
     const unsubscribed = onAuthStateChanged(auth, user => {
       if (user) {
@@ -33,7 +34,6 @@ const useFirebase = () => {
     });
     return  () => unsubscribed;
   }, [])
-
 
   const logOut = () => {
     setIsLoading(true)
