@@ -11,9 +11,9 @@ import tooth1 from '../../Images/tooth (1).png';
 import tooth from '../../Images/tooth.png';
 import maskGroup3 from '../../Images/Mask Group 3.png';
 import removebg from '../../Images/5790-removebg.png'
-import onec from '../../Images/Ellipse 2.png';
+import onec from '../../Images/Ellipse 1.png';
 import twice from '../../Images/Ellipse 2.png';
-import thirdc from '../../Images/Ellipse 2.png';
+import thirdc from '../../Images/Ellipse 1.png';
 import drImage from '../../Images/doc1.jpg';
 import drImage1 from '../../Images/dr-image.png';
 import drImage2 from '../../Images/doc2.jpg';
@@ -157,7 +157,7 @@ const About = () => {
                         </Card.Text>
                     </Card.Body>
                     <Card.Header style={{ border: "none", display: "flex" }}>
-                        <img src={thirdc} alt="" />
+                        <img src={onec} alt="" />
                         <div className="patientinfo">
                             <p>Mahmud Khan</p>
                             <p>Rajshahi</p>
@@ -197,7 +197,7 @@ const About = () => {
                 </Card>
                 <Card style={{ width: '21rem', border: "none", boxShadow: "5px 5px 10px lightGray" }}>
                     <Card.Header style={{ border: "none", display: "flex" }}>
-                        <img src={twice} alt="" />
+                        <img src={thirdc} alt="" />
                         <div className="doctorinfo">
                             <p>Dr. MK Roman</p>
                             <p>13 July 2020</p>

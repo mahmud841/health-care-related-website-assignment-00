@@ -30,9 +30,9 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
-          <Route path="/services">
+          <PrivateRoute path="/services">
             <Services></Services>
-          </Route>
+          </PrivateRoute>
           <PrivateRoute path="/doctors">
             <Doctors></Doctors>
           </PrivateRoute>
@@ -43,9 +43,6 @@ function App() {
         <Footer></Footer>
       </Router>
       </AuthProvider>
-
-
-
     </div>
   );
 }
