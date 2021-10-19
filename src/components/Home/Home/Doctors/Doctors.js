@@ -12,7 +12,7 @@ const Doctors = () => {
 
   return (
     <div>
-      <h1 style={{color:"black" , fontStyle:"italic"}}>Our Doctor's Care {doctors.length} </h1>
+      <h1 style={{color:"black" , fontStyle:"italic"}}>Our Doctor's Overview </h1>
       <div className="container">
         {
           doctors.map(doctor => <Doctor key={doctor.id} doctor={doctor} ></Doctor> )

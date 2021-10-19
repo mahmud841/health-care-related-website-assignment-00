@@ -3,6 +3,7 @@
   grid-template-columns:repeat(3, 1fr) ;
   grid-gap: 25px;
   background-color: rgba(188, 247, 224, 0.452);
+  padding-bottom: 3%;
 }
 /******************Make Responsive  using Media query*******************/
 @media only screen and (max-width:688px) {
