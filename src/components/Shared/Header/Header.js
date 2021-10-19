@@ -29,7 +29,7 @@ const Header = () => {
             <Nav.Link as={Link} className="navLink" to="/doctors">Doctors Zone</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link as={Link} className="navLink" to="/login">Login</Nav.Link>
+            <Nav.Link as={Link} className="navLink" to="/email">Login</Nav.Link>
           </Nav.Item>
         </Nav>
         {/****************Optional Chaining****************/}

@@ -1,17 +1,20 @@
-import {getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword} from "firebase/auth";
+import {getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged} from "firebase/auth";
 import { useEffect, useState } from 'react';
 import initializeAuthentication from '../components/Login/Firebase/firebase.init';
 
-//******************* Function is called 
+//******************* Function is called *****
 initializeAuthentication();
 
 const useFirebase = () => {
     const [user, setUser] = useState({});
   const [isLoading, setIsLoading] = useState(true);
+  // const [email, password] = useState('')
+  
+  
 // Always use this, don't forget 
   const auth = getAuth();
 
-//***************************Google Sign In Coding****************
+//***************************Google Sign In Coding***************
   const signInUsingGoogle = () => {
     setIsLoading(true)
     const googleProvider = new GoogleAuthProvider();
@@ -35,6 +38,12 @@ const useFirebase = () => {
     return  () => unsubscribed;
   }, [])
 
+
+//*************************Email Sign In************************
+
+
+
+//*****************************End Email Part 
   const logOut = () => {
     setIsLoading(true)
     signOut(auth)
