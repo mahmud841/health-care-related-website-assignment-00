@@ -1,12 +1,21 @@
 
-.navLink{
-  background-color: rgb(253, 179, 179);
-  display: flex;
+.nav-bar{
+  color: #d4e8ee;
+  background-color: thistle;
+  font-style: italic;
+  font-weight: 700;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
  
 }
-
-.img-header{
-  width: 110px;
-  height: 60px;
-  
+.header-icon{
+  display: flex;
+   flex-direction: column;
+  justify-content: space-around; 
+}
+.navbar-img{
+  width: 150px;
+  margin-left: 10px ;
 }

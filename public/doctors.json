@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Mahmuda Khan",
+    "img":"https://ibb.co/nR4ZRhG",
+    "specialist": "Heart Specialest",
+    "practice":"Since 10Years",
+    "address": "Rajshahi Medical College"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Afia Khan",
+    "img":"https://ibb.co/d6XxpCx",
+    "specialist": "Kidney Specialest",
+    "practice":"Since 11 Years",
+    "address": "Rajshahi Medical College"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Farjana Khan",
+    "img":"https://ibb.co/SyHh5GW",
+    "specialist": "Gynochologist",
+    "practice":"Since 9 Years",
+    "address": "Rajshahi Medical College"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Nawshad Ali Khan",
+    "img":"https://ibb.co/Jjp2vfK",
+    "specialist": "Sergery Specialest",
+    "practice":"Since 15 Years",
+    "address": "Rajshahi Medical College"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Hosneara Khan",
+    "img":"https://ibb.co/YbzGfJV",
+    "specialist": "Medicine Specialest",
+    "practice":"Since  7 Years",
+    "address": "Rajshahi Medical College"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Mahmuda Khan",
+    "img":"https://ibb.co/nR4ZRhG",
+    "specialist": "Heart Specialest",
+    "practice":"Since 10Years",
+    "address": "Rajshahi Medical College"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Mahmuda Khan",
+    "img":"https://ibb.co/nR4ZRhG",
+    "specialist": "Heart Specialest",
+    "practice":"Since 10Years",
+    "address": "Rajshahi Medical College"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Mahmuda Khan",
+    "img":"https://ibb.co/nR4ZRhG",
+    "specialist": "Heart Specialest",
+    "practice":"Since 10Years",
+    "address": "Rajshahi Medical College"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Mahmuda Khan",
+    "img":"https://ibb.co/nR4ZRhG",
+    "specialist": "Heart Specialest",
+    "practice":"Since 10Years",
+    "address": "Rajshahi Medical College"
+  }
+]
