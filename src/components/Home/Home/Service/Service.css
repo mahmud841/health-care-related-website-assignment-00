@@ -1,10 +1,6 @@
-.service-container{
+.main-container div div{
   display: grid;
   grid-template-columns:repeat(3, 1fr) ;
-  grid-gap: 5px;
+  grid-gap: 25px;
   background-color: rgba(188, 247, 224, 0.452);
-}
-
- .img-container{
- width: 100px;
 }

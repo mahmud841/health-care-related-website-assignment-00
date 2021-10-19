@@ -5,15 +5,18 @@ const Service = ({ service }) => {
   const { name, img, title } = service;
   return (
 
-    <div className="col-lg-4 col-sm-6 col-12">
-      <div className="img-container">
+    // <div className="col-lg-4 col-sm-6 col-12 main-container">
+    <div className=" main-container">
+     <div className="">
+     <div className="">
         <img src={img} alt="" />
       </div>
 
-      <div className="service-container">
-        <h1>{name} </h1>
-        <h3>{title} </h3>
+      <div className="">
+        <h5>{name} </h5>
+        <p>{title} </p>
       </div>
+     </div>
       
 
 
