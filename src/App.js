@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Switch,Route } from 'react-router-dom';
 import './App.css';
-import Home from './components/Home/Home';
-import Doctors from './components/Doctors/Doctors';
+import Home from './components/Home/Home/Home';
 import About from './components/About/About';
 import Login from './components/Login/Login';
 import NotFound from './components/NotFound/NotFound';
@@ -9,6 +8,7 @@ import Services from './components/Services/Services';
 import Footer from './components/Shared/Footer/Footer';
 import Header from './components/Shared/Header/Header';
 import AuthProvider from './contexts/AuthProvider';
+import Doctors from './components/Home/Home/Doctors/Doctors';
 
 function App() {
   return (

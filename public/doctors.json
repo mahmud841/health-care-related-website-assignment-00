@@ -2,73 +2,110 @@
   {
     "id": 1,
     "name": "Dr. Mahmuda Khan",
-    "img":"https://ibb.co/nR4ZRhG",
+    "img":"https://i.ibb.co/m4Nh0Dj/eight.jpg",
     "specialist": "Heart Specialest",
     "practice":"Since 10Years",
+    "description":"Myself Mahmuda, Cardiologist Surgeon",
     "address": "Rajshahi Medical College"
   },
   {
     "id": 2,
     "name": "Dr. Afia Khan",
-    "img":"https://ibb.co/d6XxpCx",
+    "img":"https://i.ibb.co/PQK64jH/five.jpg",
     "specialist": "Kidney Specialest",
     "practice":"Since 11 Years",
+    "description":"Myself Afia, Kidny Specialist Surgeon",
     "address": "Rajshahi Medical College"
   },
   {
     "id": 3,
     "name": "Dr. Farjana Khan",
-    "img":"https://ibb.co/SyHh5GW",
+    "img":"https://i.ibb.co/27rC8M9/four.jpg",
     "specialist": "Gynochologist",
     "practice":"Since 9 Years",
-    "address": "Rajshahi Medical College"
+    "description":"Myself Farjana, Gynochologist Special Training",
+    "address": "Dhaka Medical College"
   },
   {
     "id": 4,
     "name": "Dr. Nawshad Ali Khan",
-    "img":"https://ibb.co/Jjp2vfK",
-    "specialist": "Sergery Specialest",
+    "img":"https://i.ibb.co/Wz7Sh7h/nine.jpg",
+    "specialist": "Surgery Specialest",
     "practice":"Since 15 Years",
+    "description":"Myself Khan, Surgery Special Training",
     "address": "Rajshahi Medical College"
   },
   {
     "id": 5,
     "name": "Dr. Hosneara Khan",
-    "img":"https://ibb.co/YbzGfJV",
+    "img":"https://i.ibb.co/YLYWCyz/one.jpg",
     "specialist": "Medicine Specialest",
     "practice":"Since  7 Years",
-    "address": "Rajshahi Medical College"
+    "description":"Myself Hosneara, Medicine Specialist",
+    "address": "Khulna Medical College"
   },
   {
     "id": 6,
-    "name": "Dr. Mahmuda Khan",
-    "img":"https://ibb.co/nR4ZRhG",
+    "name": "Dr. Aanni Khan",
+    "img":"https://i.ibb.co/DLVxPjj/seven.jpg",
     "specialist": "Heart Specialest",
     "practice":"Since 10Years",
-    "address": "Rajshahi Medical College"
+    "description":"Myself Aanni, Cardilogy Specialist",
+    "address": "Mymensingh Medical College"
   },
   {
     "id": 7,
-    "name": "Dr. Mahmuda Khan",
-    "img":"https://ibb.co/nR4ZRhG",
+    "name": "Dr. Abir Khan",
+    "img":"https://i.ibb.co/1fTNH2D/six.jpg",
     "specialist": "Heart Specialest",
     "practice":"Since 10Years",
-    "address": "Rajshahi Medical College"
+    "description":"Myself Abir, Cardilogy Surgeon",
+    "address": "Chittagong Medical College"
   },
   {
     "id": 8,
-    "name": "Dr. Mahmuda Khan",
-    "img":"https://ibb.co/nR4ZRhG",
+    "name": "Dr. Prietty Khan",
+    "img":"https://i.ibb.co/Wvk0PL7/two.jpg",
     "specialist": "Heart Specialest",
     "practice":"Since 10Years",
-    "address": "Rajshahi Medical College"
+    "description":"Myself Prietty, Cardilogy Specialist",
+    "address": "Dhaka Medical College"
   },
   {
     "id": 9,
+    "name": "Dr. Mahmud Hassan Khan",
+    "img":"https://i.ibb.co/D4015kt/three.jpg",
+    "specialist": "Child Specialist",
+    "practice":"Since 10Years",
+    "description":"Myself Mahmud, Child Dissease Specialist",
+    "address": "Khulna Medical College"
+  },
+  {
+    "id": 10,
     "name": "Dr. Mahmuda Khan",
-    "img":"https://ibb.co/nR4ZRhG",
+    "img":"https://i.ibb.co/Wvk0PL7/two.jpg",
+    "specialist": "Eyes Specialest",
+    "practice":"Since 10Years",
+    "description":"Myself Mahmuda, Eyes Specialist",
+    "address": "Shohrawardee Medical College"
+  },
+  {
+    "id": 11,
+    "name": "Dr. Joya Khan",
+    "img":"https://i.ibb.co/mXVMvyw/ten.jpg",
+    "specialist": "Diabetics Specialest",
+    "practice":"Since 10Years",
+    "description":"Myself Mahmud,Diabetics Special Care",
+    "address": "Rajshahi Medical College"
+  },
+  {
+    "id": 12,
+    "name": "Dr. Ananna Khan",
+    "img":"https://i.ibb.co/Wvk0PL7/two.jpg",
     "specialist": "Heart Specialest",
     "practice":"Since 10Years",
+    "description":"Myself Ananna, Specialized in Heart",
     "address": "Rajshahi Medical College"
   }
+  
 ]
