@@ -1,9 +1,12 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
+import { Button, Nav } from 'react-bootstrap';
 import './Header.css';
 import logo from '../../../Images/medicare1.jpg'
+import { Link } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth';
 
 const Header = () => {
+  const { user, logOut } = useAuth();
   return (
     <div className="nav-bar">
         {/*******************Navigation logo**************************/}
@@ -29,6 +32,11 @@ const Header = () => {
             <Nav.Link className="navLink" href="/login">Login</Nav.Link>
           </Nav.Item>
         </Nav>
+        {user?.email ?
+              <Button onClick={logOut} variant="light">LogOut</Button> :
+              <Nav.Link as={Link} to="/login">Login</Nav.Link>
+
+            }
       </div>
     </div >
   );
