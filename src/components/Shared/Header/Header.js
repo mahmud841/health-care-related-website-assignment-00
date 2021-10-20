@@ -33,13 +33,15 @@ const Header = () => {
           </Nav.Item>
         </Nav>
         {/****************Optional Chaining****************/}
-        {user?.email ?
+       <div className="login-system">
+       {user?.email ?
           <Button onClick={logOut} variant="secondary">LogOut</Button> :
-          <Nav.Link as={Link} to="/login"></Nav.Link>
+          <Nav.Link as={Link} to="/login">Google Login </Nav.Link>
         }
         <Navbar.Text className="justify-content-center">
           Signed in As: <a href="#login">{user?.displayName}</a>
         </Navbar.Text>
+       </div>
       </div>
     </div >
   );

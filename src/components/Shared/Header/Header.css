@@ -30,3 +30,12 @@
   width: 150px;
   margin-left: 10px ;
 }
+.login-system{
+  color: rgb(235, 102, 7);
+  background-color: rgb(228, 199, 204);
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  padding-right: 5px;
+  margin-right: 3px;
+}
