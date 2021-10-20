@@ -15,7 +15,7 @@ const Footer = () => {
           <div>
             <small>Emergency Patients Care</small>
             <br />
-            <small>Sergery Department</small>
+            <small>Surgery Department</small>
             <br />
             <small>Treatment Personal Diseases</small>
             <br />
@@ -47,18 +47,16 @@ const Footer = () => {
           <div>
             <small>Dhaka,Bangladesh</small>
             <div className="brandIcon">
-              <FontAwesomeIcon icon={faFacebookF} />
-              
+               <FontAwesomeIcon icon={faFacebookF} />
               <FontAwesomeIcon icon={faGooglePlusG} />
               <FontAwesomeIcon icon={faTwitter} />
             </div>
-            <small>Call Now</small>
-            <p className="callNow">+8801338164898</p>
+            <small>Call Now +8801338164898</small>
           </div>
         </div>
       </div>
       <div style={{ textAlign: "center", marginTop: "30px" }}>
-        <small>Copyright 2020 All Right Reserved</small>
+        <small>Copyright 2021 || All Right Reserved</small>
       </div>
     </div>
   );

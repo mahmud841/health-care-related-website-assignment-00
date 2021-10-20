@@ -10,39 +10,20 @@
 .footer > div > *{
   width: 33.33%;
 }
-/* .footer > div > div > div:first-child > p{
-  background: linear-gradient(to right, #19D3AE, #0FCFEC);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 800;
-} */
-/* .footer .brandIcon > *{
-  border: 1px solid #1bceaa;
-  border-radius: 15px;
-  padding: 5px;
-  height: 30px;
-  width: 30px;
-  margin-right: 10px;
-  color: #23d4b1;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  transition: .5s;
-} */
-/* .footer .brandIcon > *:hover{
-  background-color: #19D3AE;
-  color: white;
-} */
+
  .footer .callNow{
-  /* background-image: linear-gradient(to right, #19D3AE, #0FCFEC); */
   width: 150px;
   padding: 10px 10px;
   color: white;
   border-radius: 5px;
 } 
-/* .footer small{
-  color: gray;
-  font-weight: 600;
-} */
+.brandIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+
 
 @media only screen and (max-width: 771px) {
   .footer{
