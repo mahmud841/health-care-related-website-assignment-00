@@ -14,7 +14,7 @@ const Email = () => {
 
   const auth = getAuth();
 
-
+//************************Toggle login 
   const toggleLogin = e => {
     setIsLogin(e.target.checked);
 
@@ -39,7 +39,7 @@ const Email = () => {
       setError('Password Must be at least 6 Charecters')
       return;
     }
-
+//*******************Password COndition*/
     if (!/(?=.*[a-z].*[a-z].*[a-z])/.test(password)) {
       setError('Password must contain 3 lower case ')
       return;
@@ -105,22 +105,22 @@ const Email = () => {
     //**********************Handle Button Section************************ 
     <div className="mx-5 px-5 py-5">
       <form onSubmit={handleRegistration}>
-        <h1 className="text-secondary"> Please {isLogin ? 'Login' : 'Register'} </h1>
+        <h1 className="text-primary"> Please {isLogin ? 'Login' : 'Register'} </h1>
         <div className="row mb-3">
 
           {!isLogin &&
             <div className="row mb-3">
-              <label htmlFor="inputAddress" className="form-label">Name</label>
+              <label htmlFor="inputAddress" style={{color:'black', backgroundColor:'whitesmoke'}} className="form-label">Name</label>
               <input type="text" onBlur={handleNameChange} className="form-control" id="inputAddress" placeholder="Your Name" />
             </div>}
 
-          <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Email</label>
+          <label htmlFor="inputEmail3" style={{color:'white'}} className="col-sm-2 col-form-label bg-secondary">Email</label>
           <div className="col-sm-10">
             <input onBlur={handleOnChange} type="email" className="form-control" id="inputEmail3 " required />
           </div>
         </div>
         <div className="row mb-3">
-          <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Password</label>
+          <label htmlFor="inputPassword3" style={{color:'white'}} className="col-sm-2 col-form-label bg-secondary">Password</label>
           <div className="col-sm-10">
             <input type="password" onBlur={handlePasswordChange} className="form-control" id="inputPassword3" required />
           </div>
@@ -140,7 +140,7 @@ const Email = () => {
           {error}
         </div>
         <button type="submit" className="btn btn-primary mx-3"> {isLogin ? 'Login' : 'Register'}</button>
-        <button type="button" onClick={handleResetPassword} className="btn btn-secondary btn-sm p-2">Reset Password </button>
+        <button type="button" onClick={handleResetPassword} className="btn btn-danger btn-sm p-2">Reset Password </button>
       </form>
     </div>
   );

@@ -5,6 +5,9 @@ import './Service.css';
 const Service = ({ service }) => {
   //*******************destructuring properties****************** 
   const { id, name, img, title, description } = service;
+
+
+
   return (
 
     <div className="card-container">
