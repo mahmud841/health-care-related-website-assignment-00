@@ -1,4 +1,4 @@
-This is Medical Care Hospital Simple Project [https://medicare-hospital007.netlify.app   https://medicare-hospital007.netlify.app](https://medicare-hospital841.netlify.app)
+This is Medical Care Hospital Simple Project [https://medicare-hospital007.netlify.app](https://medicare-hospital841.netlify.app)
 
 ## Available Scripts
 * This project name is Medicare Hospital . It's a simple website created by me using React, HTML , CSS , Javascript , Bootstrap, Firebase, React Router etc.
