@@ -38,11 +38,7 @@ const useFirebase = () => {
   }, [])
 
 
-//*************************Email Sign In************************
-
-
-
-//*****************************End Email Part 
+  //***********Logout system ctreate  */
   const logOut = () => {
     setIsLoading(true)
     signOut(auth)

@@ -105,7 +105,7 @@ const Email = () => {
     //**********************Handle Button Section************************ 
     <div className="mx-5 px-5 py-5">
       <form onSubmit={handleRegistration}>
-        <h1 className="text-primary"> Please {isLogin ? 'Login' : 'Register'} </h1>
+        <h1 style={{fontStyle:'italic',color:'black'}}> Please {isLogin ? 'Login' : 'Register'} </h1>
         <div className="row mb-3">
 
           {!isLogin &&
@@ -139,7 +139,7 @@ const Email = () => {
         <div className="row mb-3 text-danger ">
           {error}
         </div>
-        <button type="submit" className="btn btn-primary mx-3"> {isLogin ? 'Login' : 'Register'}</button>
+        <button type="submit" className="btn btn-warning mx-3"> {isLogin ? 'Login' : 'Register'}</button>
         <button type="button" onClick={handleResetPassword} className="btn btn-danger btn-sm p-2">Reset Password </button>
       </form>
     </div>
