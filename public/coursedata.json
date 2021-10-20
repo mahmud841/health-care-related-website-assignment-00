@@ -1,0 +1,74 @@
+[
+    {
+        "id": "10001",
+        "course": "C Programming",
+        "instructor": "Simon Jerald",
+        "price": "49.99",
+        "duaration": "3 Months",
+        "image": "https://geekboots.sfo2.cdn.digitaloceanspaces.com/post/why-c-is-so-popular-and-still-the-best-programming-language-1564571756694.jpg",
+        "details": "C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers. C programming language is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain."
+    },
+    {
+        "id": "10002",
+        "course": "Object Oriented Java",
+        "instructor": "Frederick Creech",
+        "price": "69.99",
+        "duaration": "4 Months",
+        "image": "https://storage.ning.com/topology/rest/1.0/file/get/8667507462?profile=RESIZE_710x",
+        "details": "Java is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language. Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling is known as the father of Java. Before Java, its name was Oak. Since Oak was already a registered company, so James Gosling and his team changed the name from Oak to Java. Platform: Any hardware or software environment in which a program runs, is known as a platform. Since Java has a runtime environment (JRE) and API, it is called a platform."
+    },
+    {
+        "id": "10003",
+        "course": "JavaScript Web Programming",
+        "instructor": "Jenelle Parsons",
+        "price": "39.99",
+        "duaration": "2 Months",
+        "image": "https://geekboots.sfo2.cdn.digitaloceanspaces.com/post/javascript-1567486564472.jpg",
+        "details": "JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions."
+    },
+    {
+        "id": "10004",
+        "course": "C# and .NET Framework",
+        "instructor": "James Rollins",
+        "price": "59.99",
+        "duaration": "3 Months",
+        "image": "https://addcode.io/wp-content/uploads/2020/02/csharp.jpg",
+        "details": "C# is a simple, modern, general-purpose, object-oriented programming language developed by Microsoft within its .NET initiative led by Anders Hejlsberg. This tutorial will teach you basic C# programming and will also take you through various advanced concepts related to C# programming language. C# programming is very much based on C and C++ programming languages, so if you have a basic understanding of C or C++ programming, then it will be fun to learn C#."
+    },
+    {
+        "id": "10005",
+        "course": "PHP REST API",
+        "instructor": "Brooke Bryant",
+        "price": "29.99",
+        "duaration": "1 Month",
+        "image": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/193662673/original/8aac0baec7869bde8581fedbd258f8239361aed6/develop-and-integrate-restful-api-in-php.png",
+        "details": "PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994. The PHP reference implementation is now produced by The PHP Group. The PHP Hypertext Preprocessor (PHP) is a programming language that allows web developers to create dynamic content that interacts with databases. PHP is basically used for developing web based software applications. This tutorial helps you to build your base with PHP."
+    },
+    {
+        "id": "10006",
+        "course": "Python for Everyone",
+        "instructor": "Sherri Warner",
+        "price": "39.99",
+        "duaration": "3 Months",
+        "image": "https://pbs.twimg.com/media/ExJCf-TWEAAs7L2.jpg:large",
+        "details": "Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects. Python is a general-purpose, versatile, and powerful programming language. It’s a great first language because it’s concise and easy to read. Whatever you want to do, Python can do it. From web development to machine learning to data science, Python is the language for you."
+    },
+    {
+        "id": "10007",
+        "course": "Android Development",
+        "instructor": "April Hawkins",
+        "price": "59.99",
+        "duaration": "4 Months",
+        "image": "https://richestsoft.com/blog/wp-content/uploads/2019/02/Android-app-development.jpg",
+        "details": "Android software development is the process by which applications are created for devices running the Android operating system. Google states that Android apps can be written using Kotlin, Java, and C++ languages using the Android software development kit, while using other languages is also possible. Accelerate your move toward a career in mobile app development. Learn to build simple Android apps with our Android Basics in Kotlin training — no programming experience necessary. Then, take the Associate Android Developer Certification exam to gain recognition for your skills as a developer."
+    },
+    {
+        "id": "10008",
+        "course": "React and Node.JS",
+        "instructor": "Ginger Morales",
+        "price": "69.99",
+        "duaration": "4 Months",
+        "image": "https://www.clarisoft.com/wp-content/uploads/2018/02/reactjs-and-nodejs-development-services.jpg",
+        "details": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications. React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug."
+    }
+]

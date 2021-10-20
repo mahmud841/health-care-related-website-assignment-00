@@ -12,6 +12,7 @@ import Doctors from './components/Home/Home/Doctors/Doctors';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 import Email from './components/Login/Email/Email';
 
+
 function App() {
   return (
     <div className="App">
