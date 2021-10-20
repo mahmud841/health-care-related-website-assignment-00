@@ -29,13 +29,13 @@ const Header = () => {
             <Nav.Link as={Link} className="navLink" to="/doctors">Doctors Zone</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link as={Link} className="navLink" to="/email">Email Login</Nav.Link>
+            <Nav.Link as={Link} className="navLink" to="/email"> Email Login</Nav.Link>
           </Nav.Item>
         </Nav>
         {/****************Optional Chaining****************/}
         {user?.email ?
           <Button onClick={logOut} variant="secondary">LogOut</Button> :
-          <Nav.Link as={Link} to="/login">Login</Nav.Link>
+          <Nav.Link as={Link} to="/login"></Nav.Link>
         }
         <Navbar.Text className="justify-content-center">
           Signed in As: <a href="#login">{user?.displayName}</a>
