@@ -20,8 +20,8 @@ const Service = ({ service }) => {
           <h2>{name} </h2>
           <h5>{title} </h5>
           <p>{description}</p>
-          <Link to={`/service/${id}`}>
-            <button style={{ color: 'black' }} className="btn btn-secondary">View Details {name.toUpperCase()} </button>
+          <Link to={`/details/${id}`}>
+            <button style={{ color: 'black',fontStyle:'italic',backgroundColor:'gray' }} >View Details {name.toUpperCase()} </button>
           </Link>
         </div>
       </div>

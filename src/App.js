@@ -11,6 +11,7 @@ import AuthProvider from './contexts/AuthProvider';
 import Doctors from './components/Home/Home/Doctors/Doctors';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 import Email from './components/Login/Email/Email';
+import Details from './components/Details/Details/Details';
 
 
 function App() {
@@ -38,6 +39,9 @@ function App() {
             <PrivateRoute path="/services">
               <Services></Services>
             </PrivateRoute>
+            <Route path='/details/:detailsId'>
+              <Details></Details>
+            </Route>
             <PrivateRoute path="/services/:serviceId">
               <Services></Services>
             </PrivateRoute>
