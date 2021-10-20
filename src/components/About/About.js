@@ -33,7 +33,7 @@ const About = () => {
                     Stay Motivated</h1>
                     <p>Health,Oral health is a key indicator of overall health, well-being and quality of life. It encompasses a range of diseases and conditions that include dental caries, Periodontal disease, Tooth loss, Oral cancer, Oral manifestations of HIV infection, Oro-dental trauma, Noma and birth defects such as cleft lip and palate.</p>
                     <Link style={{ textDecoration: "none" }} to="/appointment">
-                        <Button className="button">GET APPOINTMENT</Button>
+                        <Button className="button">Get Appoinment </Button>
                     </Link>
                 </div>
             </div>
