@@ -21,9 +21,9 @@ function App() {
         <Router>
           <Header></Header>
           <Switch>
-            <Route exact path="/">
-              <Home></Home>
-            </Route>
+             <Route exact path="/">
+              <About></About>
+            </Route> 
             <PrivateRoute path="/home">
               <Home></Home>
             </PrivateRoute>
